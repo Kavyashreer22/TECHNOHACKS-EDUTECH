@@ -1,0 +1,13 @@
+Enter your move (1. Rock, 2. Paper, 3. Scissors, 4. Quit): 1
+Computer plays Paper
+It's a draw!
+Enter your move (1. Rock, 2. Paper, 3. Scissors, 4. Quit): 2
+Computer plays Scissors
+It's a draw!
+Enter your move (1. Rock, 2. Paper, 3. Scissors, 4. Quit): 3
+Computer plays Paper
+It's a draw!
+Enter your move (1. Rock, 2. Paper, 3. Scissors, 4. Quit): 4
+
+
+=== Code Execution Successful ===
