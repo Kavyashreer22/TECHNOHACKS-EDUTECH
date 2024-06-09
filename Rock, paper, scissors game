@@ -1,0 +1,35 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+    srand(time(0)); // Seed the random number generator
+
+    string moves[] = {"Rock", "Paper", "Scissors"};
+
+    while (true) {
+        cout << "Enter your move (1. Rock, 2. Paper, 3. Scissors, 4. Quit): ";
+        int userMove;
+        cin >> userMove;
+
+        if (userMove == 4) {
+            break;
+        }
+
+        int computerMove = rand() % 3; // Generate a random move for the computer
+        cout << "Computer plays " << moves[computerMove] << endl;
+
+        if (userMove == computerMove + 1) {
+            cout << "You win!\n";
+        } else if (computerMove == userMove - 1 || (computerMove == 2 && userMove == 1)) {
+            cout << "Computer wins!\n";
+        } else {
+            cout << "It's a draw!\n";
+        }
+    }
+
+    return 0;
+}
+
+
