@@ -1,0 +1,10 @@
+Temperature Converter
+1. Convert Fahrenheit to Celsius
+2. Convert Celsius to Fahrenheit
+Enter your choice (1 or 2): 1
+Enter temperature in Fahrenheit: 105.48
+The temperature in Fahrenheit: 105.48
+The temperature in Celsius: 40.8222
+
+
+=== Code Execution Successful ===
